@@ -12,3 +12,4 @@ class Solution:
             nums[i]=left[i]*right[i]
         return nums
 ```
+this code sus af homie
