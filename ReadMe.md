@@ -33,3 +33,6 @@ res = [1] * len(nums)
             right_prod *= nums[i]
         return res
 ```
+
+
+https://leetcode.com/submissions/detail/649049637/
