@@ -15,3 +15,6 @@ class Solution:
 ```
 this code sus af homie
                      -WNHF
+The array/list can be divided into 2 parts- left and right array/list. Left[0] and Right[last] will be 1. Left list will be calculated by multiplying 
+left[index-1]*nums[index-1]. Right list will be calculated by numtiplying right[last-index]*nums[last-index]. At last multiply left and right elements and store it 
+into nums list.
