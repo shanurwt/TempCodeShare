@@ -20,6 +20,7 @@ left[index-1]*nums[index-1]. Right list will be calculated by numtiplying right[
 into nums list.
 
 ```
+```
 res = [1] * len(nums)
         for i in range(1, len(nums)):
             # [1, 2, 3, 4] nums
