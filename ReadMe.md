@@ -16,3 +16,14 @@ class Solution:
                 count=0
         return ans
 ```
+```
+def longestConsective(nums):
+    new = sorted(nums)
+    print(new)
+    result = []
+    position = 0
+    while position <= :
+        for i in new:
+            if new[position+1] == i+1:
+                result.append(i)
+                position += 1
