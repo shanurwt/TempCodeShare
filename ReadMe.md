@@ -69,3 +69,25 @@ class Solution:
             i+=1
         return ans
 ```
+
+
+
+```
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        tempstr = ''
+        for lett in s:
+            if (lett>='a' and lett<='z') or (lett>='A' and lett<='Z') or (lett>='0' and lett<='9'):
+                if lett>='A' and lett<='Z':
+                    tempstr += chr(ord(lett) + 32)
+                else:
+                    tempstr+=lett
+        st,ls = 0,len(tempstr)-1
+        print(tempstr)
+        while st<ls:
+            if tempstr[st]!=tempstr[ls]:
+                return False
+            st+=1
+            ls-=1
+        return True
+```
