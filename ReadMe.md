@@ -48,3 +48,24 @@ class Solution:
                 count=1
         return ans
 ```
+
+
+```
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        if len(nums)<1:
+            return 0
+        ans,i = 1,0
+        nums = list(set(nums))
+        nums.sort()
+        count = 1
+        while i < len(nums)-1:
+            if nums[i]+1==nums[i+1]:
+                count+=1
+                if count>ans:
+                    ans = count
+            else:
+                count=1
+            i+=1
+        return ans
+```
