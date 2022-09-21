@@ -91,6 +91,7 @@ class Solution:
             ls-=1
         return True
 ```
+```
 def palindrome(s):
     new = s.lower()
     print(new)
