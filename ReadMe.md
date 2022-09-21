@@ -97,7 +97,7 @@ def palindrome(s):
     print(new)
     result = ""
     for letter in new:
-        if "a" <= letter <= "z" or "0" <= letter <= "9":
+        if (letter >= "a" and letter <= "z") or ("0" <= letter <= "9"):
             result += letter # learn
 
     return result
