@@ -1,0 +1,11 @@
+```
+def twoSum(nums, target):
+    for i in nums:
+        print(i)
+        sub = target - i
+        print(sub)
+        if sub in nums:
+            return [nums.index[i], nums.index[sub]]
+        else:
+            return -1
+```
