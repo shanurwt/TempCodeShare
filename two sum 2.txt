@@ -4,6 +4,8 @@ def twoSum(nums, target):
         print(i)
         sub = target - i
         print(sub)
+        if sub==target:
+            return [nums.index(i),nums.index(i)+1]
         if sub in nums:
             return [nums.index(i), nums.index(sub)]
 ```
