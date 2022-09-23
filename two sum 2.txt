@@ -1,11 +1,12 @@
 ```
-def twoSum(nums, target):
+nums = [2, 7, 11, 15]
+target = 18
+
+
+def twoSum(nums, target): # key is element, values is index
+    map = {}
     for i in nums:
-        print(i)
         sub = target - i
-        print(sub)
-        if sub==target:
-            return [nums.index(i),nums.index(i)+1]
-        if sub in nums:
-            return [nums.index(i), nums.index(sub)]
+        if sub in map:
+            return [map.values(sub), nums.index(i)]
 ```
