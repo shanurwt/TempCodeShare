@@ -44,8 +44,8 @@ def toTheMoon(prices):
             if prices[j] > prices[i]:
                 sell = max(sell, prices[j])
 
-        profit = sell - prices[i]
-        return profit
+    profit = sell - prices[i]
+    return profit
 
 
 res = toTheMoon(prices)
