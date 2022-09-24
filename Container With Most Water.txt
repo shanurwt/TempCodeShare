@@ -30,10 +30,7 @@ def toTheMoon(prices):
     out = 0
     for i in range(len(prices)-1):
         for j in range(i+1, len(prices)):
-            if prices[j] > prices[i]:
-                out = max(out, prices[j]) # iterable can be added
-
-    profit = out - prices[i]
-    return profit
-    
+            if nums[j]-nums[i]>out:
+                out = nums[j] - nums[i]
+    return out 
 ```
