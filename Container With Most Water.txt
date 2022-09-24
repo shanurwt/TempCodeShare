@@ -19,6 +19,7 @@ prices = [7, 1, 5, 3, 6, 4]
 def toTheMoon(prices):
     out=0
     for i in range(len(prices)-1):
-        nextmax = max(prices[i+1,len(prices)])
+        nextmax = max(prices[i+1:])
+        print(nextmax)
   
 ```
