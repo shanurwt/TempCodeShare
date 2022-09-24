@@ -12,3 +12,12 @@ class Solution:
                 r -= 1
                 
         return res
+```
+prices = [7, 1, 5, 3, 6, 4]
+
+
+def toTheMoon(prices):
+    for i in prices:
+        for (prices[i]+1) in range(len(prices)-1):
+  
+```
