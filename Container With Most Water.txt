@@ -23,3 +23,16 @@ def toTheMoon(prices):
         print(nextmax)
   
 ```
+prices = [7, 1, 5, 3, 6, 4]
+
+
+def toTheMoon(prices):
+    out = 0
+    for i in prices:
+        for j in range(i+1, len(prices)):
+            if prices[j] > i:
+                out = max(out, prices[j]) # iterable can be added
+    profit = out - i
+    return profit
+    
+```
