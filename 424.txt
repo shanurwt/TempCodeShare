@@ -3,21 +3,17 @@ Longest Repeating Character Replacement
 ```
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        output = 1
-        for i in range(len(s)-1):
-            tempk = k
-            tstr=s[i]
-            j=i+1
-            while j<len(s):
-                if tempk>0 and s[i]!=s[j]:
-                    tstr+=s[i]
-                    tempk-=1
-                elif s[i]==s[j]:
-                    tstr+=s[i]
-                else:
-                    break
-                j+=1
-                if len(tstr)>output:
-                    output = len(tstr)
-        return output
+        count = {}
+        res = 0
+        l = 0
+
+        for r in range(len(s)):
+            count[s[r]] = 1 + count.get(s[r], 0)
+
+            if (r - l + 1) - max(count.values()) > k:
+                count[s[l]] -= 1
+                l += 1
+
+            res = max(res, r - l + 1)
+        return res
 ```
