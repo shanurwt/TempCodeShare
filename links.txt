@@ -3,3 +3,23 @@ https://meet.google.com/iuy-cqvs-zmq
 
 
 DS and Algo Questions: http://www.dsalgo.com/2013/02/index.php.html
+
+Striver cheatsheet: https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/ 
+
+Coding gaming: https://checkio.org/
+
+InterviewPrep: https://fantasy-08.github.io/LeetcodeCompanyWiseCode/
+
+https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
+
+https://algo.monster/problems/amazon_online_assessment_questions
+
+https://leetcode.com/discuss/study-guide/458695/Dynamic-Programming-Patterns
+
+https://cp-algorithms.com/
+
+https://seanprashad.com/leetcode-patterns/
+
+https://drive.google.com/file/d/16wtG6ZsThlu_YkloeyX8pp2OEjVebure/view
+
+https://github.com/labuladong/fucking-algorithm/tree/english
